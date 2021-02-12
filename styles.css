@@ -1,0 +1,156 @@
+/* browser reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* page defaults */
+html {   
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.5;
+    background-color: blanchedalmond;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;    
+    background-color: bisque;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+}
+
+h1 {
+  margin-top: 5rem; 
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h2 {
+  padding-bottom: 0.5rem;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    width: 100px;
+    height: auto;
+}
+
+nav {
+    width: 100%;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    margin-right: 0.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.25rem;
+    padding-right: 0.5rem;
+}
+
+a:hover {
+    opacity: 0.7;
+    border-bottom: 2px solid #333;
+}
+
+/* overall main section settings */
+.section-total {
+    margin-top: 5.625rem;
+    padding: 1rem;
+    width: 100%;
+}
+
+/* each section settings */
+.section-box{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+/* container for the images */
+.section-box-img {
+    display: flex;
+    justify-content: center;
+}
+
+/* each actual image settings */
+.section-image {
+    width: 30%;
+    border: 0.5px solid #333;
+    border-radius: 0.5rem;
+}
+
+/* section utilities settings */
+.section-form {
+    display: flex;
+    justify-content: center;
+}
+
+.section-video {
+    display: flex;
+    justify-content: center;
+}
+
+#email{
+  width: 350px;
+  text-align: center;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+#submit {
+  width: 350px;
+  border: none;
+  margin: 0.5rem;
+  font-size: 1rem;
+  padding: 1rem 1.5rem 1rem;
+  cursor: pointer;
+}
+
+#submit:hover {
+  border-color: bisque;
+  box-shadow: 0 0.5rem 0.5rem -0.4rem #ffa260;
+  cursor: pointer;
+}
+
+footer {
+  width: 100%;
+  height: 2rem;
+  background-color: bisque
+}
+
+.footer-bottom {
+    display: flex;
+}
+
+
+/* media query about screen sizes */
+@media screen and (min-width: 640px) {
+	.section-total {
+		margin: 0 auto;
+    padding: 1.5rem;
+	}
+} 
